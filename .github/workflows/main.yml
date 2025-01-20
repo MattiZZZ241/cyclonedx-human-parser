@@ -31,7 +31,7 @@ jobs:
       run: go mod tidy
 
     - name: Build
-      run: go build -v -o cyclonedx-human-parser ./...
+      run: go build -v -o cyclonedx-human-parser .
 
     - name: Run tests
       run: go test -v ./...
