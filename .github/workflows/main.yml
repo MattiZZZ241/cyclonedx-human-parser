@@ -2,9 +2,8 @@ name: Go Build and Release
 
 on:
   push:
-    branches:
-      - main
-      - 'v*.*.*'
+    tags:
+      - '*.*.*'
 
 jobs:
   build:
