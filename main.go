@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+	opts := &Options{}
 	filePath := os.Args[1]
 
 	cyclonedx, err := parser.ParseCycloneDXFile(filePath)

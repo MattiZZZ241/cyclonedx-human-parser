@@ -91,6 +91,7 @@ type Dependency struct {
 	Provides  []string `json:"provides,omitempty"`
 }
 
+// Structure for a CycloneDX 1.6 file
 type CycloneDX struct {
 	BomFormat    string `json:"bomFormat"`
 	SpecVersion  string `json:"specVersion"`
